@@ -1,0 +1,17 @@
+/home/user/git/381903-02/Pinezhanin Evgeny/build/CMakeFiles/rebuild_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/CMakeFiles/edit_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/include/CMakeFiles/edit_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/include/CMakeFiles/rebuild_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/include/CMakeFiles/templ_arithmetic.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/src/CMakeFiles/rebuild_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/src/CMakeFiles/edit_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/src/CMakeFiles/arithmetic.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/samples/CMakeFiles/rebuild_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/samples/CMakeFiles/edit_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/samples/CMakeFiles/sample.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/gtest/CMakeFiles/rebuild_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/gtest/CMakeFiles/edit_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/gtest/CMakeFiles/gtest.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/test/CMakeFiles/rebuild_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/test/CMakeFiles/edit_cache.dir
+/home/user/git/381903-02/Pinezhanin Evgeny/build/test/CMakeFiles/test_arithmetic.dir
