@@ -1,1 +1,0 @@
-/usr/bin/g++-9  -g  -rdynamic CMakeFiles/test_arithmetic.dir/test_main.cpp.o CMakeFiles/test_arithmetic.dir/test_queue.cpp.o CMakeFiles/test_arithmetic.dir/test_stack.cpp.o CMakeFiles/test_arithmetic.dir/test_tformula.cpp.o  -o ../bin/test_arithmetic  ../lib/libgtest.a ../lib/libarithmetic.a -pthread 
