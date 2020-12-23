@@ -65,6 +65,46 @@ TEST(TFormula, can_convert_arithmetic_expression_to_reverse_polish_notation)
     EXPECT_EQ(strOut, f.getOutFormula());
 }
 
+TEST(TFormula, can_convert_arithmetic_expression_with_variables_to_reverse_polish_notation)
+{
+    string str = "1+2*x";
+    string strOut = "1 2 x *+";
+    TFormula f(str);
+    f.conversToRevPolNot();
+
+    EXPECT_EQ(strOut, f.getOutFormula());
+}
+
+TEST(TFormula, can_omit_the_multiplication_sign_when_using_variables_1)
+{
+    string str = "1+2xy";
+    string strOut = "1 2 x *y *+";
+    TFormula f(str);
+    f.conversToRevPolNot();
+
+    EXPECT_EQ(strOut, f.getOutFormula());
+}
+
+TEST(TFormula, can_omit_the_multiplication_sign_when_using_variables_2)
+{
+    string str = "1+2x(3+xy)";
+    string strOut = "1 2 x *3 x y *+*+";
+    TFormula f(str);
+    f.conversToRevPolNot();
+
+    EXPECT_EQ(strOut, f.getOutFormula());
+}
+
+TEST(TFormula, can_convert_arithmetic_expression_with_exponentiation_to_reverse_polish_notation)
+{
+    string str = "1+x^(4+y)";
+    string strOut = "1 x 4 y +^+";
+    TFormula f(str);
+    f.conversToRevPolNot();
+
+    EXPECT_EQ(strOut, f.getOutFormula());
+}
+
 TEST(TFormula, the_lexical_analyzer_removes_extra_spaces)
 {
     string str = "1 +  2  ";
